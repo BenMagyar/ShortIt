@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript">
+    safari.application.addEventListener('beforeSearch', function(e){
+      var re = /^(?:r\s)([A-Za-z0-9_]+)/;
+      var subreddit = e.query.match(re)[1];
+      if (subreddit) {
+        e.preventDefault();
+        e.target.url = 'http://reddit.com/r/' + subreddit;
+      }
+    });
+  </script>
+</head>
+<body></body>
+</html>

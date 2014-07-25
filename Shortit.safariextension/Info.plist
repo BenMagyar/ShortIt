@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Ben Magyar</string>
+	<key>Builder Version</key>
+	<string>10538.46</string>
+	<key>CFBundleDisplayName</key>
+	<string>ShortIt</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.benmagyar.shortit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>ShortIt.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Subreddit to URL Translator</string>
+	<key>DeveloperIdentifier</key>
+	<string>52YT6WEXGD</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict/>
+	</dict>
+	<key>Website</key>
+	<string>http://benmagyar.github.io</string>
+</dict>
+</plist>
